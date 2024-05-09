@@ -1,0 +1,511 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+body {
+
+    background-image: url(https://i.pinimg.com/originals/1a/7d/cc/1a7dcc374628bc21f6ef890463a77eae.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    transition: transform 2000ms;
+    /* background-size: cover; */
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    transition: transform 2000ms;
+
+
+}
+
+
+#visitors {
+
+    position: absolute;
+    margin-right: 1800.3333px;
+    margin-bottom: 666.666px;
+    opacity: 0%;
+
+}
+
+
+#visitors:hover {
+
+    opacity: 100%;
+
+}
+
+
+#sol2 {
+    width: 240px;
+    height: 240px;
+    background-color: #ff6600;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 10.14px 10.14px 235px 132.5px orange;
+    margin-right: 5px;
+    z-index: -1;
+}
+
+#nicolas{
+    z-index: 1;
+    position: absolute;
+    opacity: 0;
+}
+
+#nicolas, img{
+    width: 400px;
+
+}
+
+#nicolas:hover{
+    opacity: 70%;
+    transition: opacity 1000ms;
+}
+
+#nave {
+    z-index: +1;
+    position: absolute;
+    animation: ir 14.14s 0s linear infinite;
+}
+
+
+#baleia {
+    position: absolute;
+    z-index: -1;
+    animation: mexe 80s linear infinite;
+}
+
+
+#baleia>img {
+
+    opacity: 50%;
+}
+
+
+
+
+
+#Sol>img {
+
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Netuno {
+
+    position: absolute;
+    height: 1470px;
+    width: 1470px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Netuno img {
+
+    height: 45px;
+    width: 45px;
+    animation: rot 40s linear infinite;
+
+}
+
+
+#Urano {
+
+    position: absolute;
+    height: 1300px;
+    width: 1300px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-body  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+}
+
+.card-body h4{
+    text-align: center;
+}
+
+#Urano img {
+
+    height: 80px;
+    width: 80px;
+    animation: rot2 25s linear infinite;
+
+}
+
+#Saturno {
+
+    position: absolute;
+    height: 1150px;
+    width: 1150px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Saturno img {
+
+    height: 90px;
+    width: 120px;
+    animation: rot3 17s linear infinite;
+
+}
+
+#Jupiter {
+
+    position: absolute;
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Jupiter img {
+
+    height: 90px;
+    width: 90px;
+    animation: rot4 10.5s linear infinite;
+
+}
+
+#Marte {
+
+    position: absolute;
+    height: 850px;
+    width: 850px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Marte img {
+
+    height: 60px;
+    width: 60px;
+    animation: rot5 6.6s linear infinite;
+
+}
+
+#Terra {
+
+    position: absolute;
+    height: 750px;
+    width: 750px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Terra img {
+
+    
+    width: 70px;
+    animation: rot6 5.5s linear infinite;
+
+}
+
+
+#Venus {
+
+    position: absolute;
+    height: 650px;
+    width: 650px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Venus img {
+
+    height: 63.5px;
+    width: 63.5px;
+    animation: rot7 4s linear infinite;
+
+}
+
+#Mercurio {
+
+    position: absolute;
+    height: 525px;
+    width: 525px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Mercurio img {
+
+    height: 30px;
+    width: 50px;
+    animation: rot8 2.5s linear infinite;
+
+}
+
+.card-body{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-width: 0px;
+}
+
+.card-body,p{
+    font-size: 15px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 0px;
+}
+
+.container:hover{
+    transform: scale(0.5);
+
+}
+
+.card-header{
+    height: 40px;
+    padding-top: 0;
+    align-items: center;
+    justify-content: center; 
+    padding: 0px; 
+    margin: 0px;
+    border-width: 0px;
+    
+}
+
+.card{
+    border-width: 0px;
+}
+
+.mb-0{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   padding-bottom: 0px;
+
+}
+
+button{
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+@keyframes rot {
+
+    from {
+
+        transform: rotate(0deg) translate(735px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(735px) rotate(0deg);
+    }
+
+}
+
+
+@keyframes rot2 {
+
+    from {
+
+        transform: rotate(0deg) translate(650px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(650px) rotate(0deg);
+    }
+
+}
+
+@keyframes rot3 {
+
+    from {
+
+        transform: rotate(0deg) translate(575px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(575px) rotate(0deg);
+    }
+
+}
+
+
+@keyframes rot4 {
+
+    from {
+
+        transform: rotate(0deg) translate(500px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(500px) rotate(0deg);
+    }
+
+}
+
+
+@keyframes rot5 {
+
+    from {
+
+        transform: rotate(0deg) translate(425px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(425px) rotate(0deg);
+    }
+
+}
+
+@keyframes rot6 {
+
+    from {
+
+        transform: rotate(0deg) translate(375px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(375px) rotate(0deg);
+    }
+
+}
+
+@keyframes rot7 {
+
+    from {
+
+        transform: rotate(0deg) translate(315px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(315px) rotate(0deg);
+    }
+
+}
+
+@keyframes rot8 {
+
+    from {
+
+        transform: rotate(0deg) translate(260px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(260px) rotate(0deg);
+    }
+
+}
+
+@keyframes mexe {
+
+    to {
+        right: -50%;
+
+    }
+
+    25% {
+
+        transform: scale(2);
+    }
+
+    from {
+
+        right: 150%;
+    }
+}
+
+
+@keyframes ir {
+
+    to {
+        right: 0%;
+        transform: scale(0);
+
+    }
+
+    25% {
+
+        transform: scale(10);
+    }
+
+    from {
+
+        right: 750%;
+        transform: scale(4);
+        ;
+    }
+}
+
+/* mauricio meireles */
